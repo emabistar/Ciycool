@@ -1,0 +1,30 @@
+<div class="container p-3">
+  <h3 class="text-center">Transaction History</h3>
+  <div class="card">
+    <div class="card-body">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>ID</th>
+          <th>Date</th>
+          <th>Account ID</th>
+          <th>Type</th>
+          <th>Amount</th>
+          <th>Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let transaction of transactions">
+          <td>{{ transaction.id }}</td>
+          <td>{{ transaction.date }}</td>
+          <td>{{ transaction.accountId }}</td>
+          <td>{{ transaction.type }}</td>
+          <td>{{ transaction.amount }}</td>
+          <td>{{ transaction.status }}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
