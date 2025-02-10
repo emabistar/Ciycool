@@ -1,0 +1,2 @@
+#RAG USING JAVA LANGCHAIN  AND ANGULAR POSTGRES
+#To create a IA smat app.
